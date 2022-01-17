@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body {
+  font-family: monospace;
+  height: 600px;
+  background: linear-gradient(rgba(131, 26, 99, 0.5), rgba(6, 3, 9, 0.5));
+}
+h2 {
+  margin: 30px auto;
+  text-align: center;
+  font-size: 45px;
+  margin-top: 30px;
+}
+
+table {
+  margin: 30px auto;
+  text-align: center;
+}
+.label {
+  font-size: 100px;
+  font-family: monospace;
+  margin: 5px;
+  line-height: 100px;
+}
+p {
+  font-size: 20px;
+  font-family: monospace;
+  color: #f34;
+  font-weight: 700;
+}
+td > button {
+  border: 1px solid;
+  background-color: black;
+  border-radius: 5px;
+  padding: 5px;
+  color: #fff;
+  margin-top: 10px;
+  width: 90px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
