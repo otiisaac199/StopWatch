@@ -9,33 +9,37 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <!-- <i class="fa fa-times"></i> -->
-    <h2>STOP WATCH</h2>
-    <table cellpadding="10">
-      <tr>
-        <td>
-          <h1 class="label" id="hr">00</h1>
-          <p>Hours</p>
-        </td>
-        <td>
-          <h1 class="label" id="min">00</h1>
-          <p>Minutes</p>
-        </td>
-        <td>
-          <h1 class="label" id="sec">00</h1>
-          <p>Seconds</p>
-        </td>
-      </tr>
-      <td>
-        <button onclick="reset()" id="reset">Reset</button>
-      </td>
-      <td>
-        <button onclick="stop()" id="stop">Stop</button>
-      </td>
-      <td>
-        <button onclick="start()" id="stop">Start</button>
-      </td>
-    </table>
+    <div class="page-container">
+      <div class="container">
+        <h2>STOP WATCH</h2>
+        <table cellpadding="10">
+          <tr>
+            <td>
+              <h1 class="label" id="hr">00</h1>
+              <p>Hours</p>
+            </td>
+            <td>
+              <h1 class="label" id="min">:00</h1>
+              <p>Minutes</p>
+            </td>
+            <td>
+              <h1 class="label" id="sec">.00</h1>
+              <p>Seconds</p>
+            </td>
+          </tr>
+          <td>
+            <button onclick="reset()" id="reset">Reset</button>
+          </td>
+          <td>
+            <button onclick="stop()" id="stop">Stop</button>
+          </td>
+          <td>
+            <button onclick="start()" id="stop">Start</button>
+          </td>
+        </table>
+      </div>
+    </div>
+
     <script src="app.js"></script>
   </body>
 </html>

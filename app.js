@@ -46,6 +46,6 @@ function reset() {
   min = 00;
   hr = 00;
   document.getElementById("sec").innerHTML = "00";
-  document.getElementById("min").innerHTML = "00";
-  document.getElementById("hr").innerHTML = "00";
+  document.getElementById("min").innerHTML = ":" + "00";
+  document.getElementById("hr").innerHTML = "." + "00";
 }
